@@ -30,6 +30,7 @@ class Solution {
             count++;
         }
         if(left==
+        if(left==1)
             head=reverse(root,right-left+1);
         else
             prev.next=reverse(root,right-left+1);
